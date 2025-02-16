@@ -151,14 +151,8 @@ This project is licensed under the **MIT License**.
 📧 Email: contact@johnferreralvarado.com
 
 💼 LinkedIn: [johnfalvarado](https://www.linkedin.com/in/johnfalvarado/) 
- 
+
 🌎 Portfolio: [JohnFerrerAlvarado.com](https://johnferreralvarado.com/)  
 
----
 
-### **🔥 Final Thoughts**
-With this **AI-Powered Legal Assistant**, you’re **directly showcasing LLM, NLP, and MLOps skills** that align **perfectly** with Clio’s job description. **Deploying this and sharing it on your resume & LinkedIn will boost your hiring chances massively.** 🚀  
-
-**Next Steps:**  
-- Let me know if you need **GitHub setup support** or **deployment assistance**! 🎯🔥
 
