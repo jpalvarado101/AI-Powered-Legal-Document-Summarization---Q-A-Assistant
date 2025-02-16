@@ -148,9 +148,9 @@ This project is licensed under the **MIT License**.
 ---
 
 ## **🔗 Connect with Me**
-📧 Email: your.email@example.com  
-💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
-🌎 Portfolio: [YourWebsite.com](https://yourwebsite.com)  
+📧 Email: contact@johnferreralvarado.com
+💼 LinkedIn: [johnfalvarado](https://www.linkedin.com/in/johnfalvarado/)  
+🌎 Portfolio: [JohnFerrerAlvarado.com](https://johnferreralvarado.com/)  
 
 ---
 
