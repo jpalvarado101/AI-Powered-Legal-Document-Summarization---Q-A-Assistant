@@ -149,7 +149,9 @@ This project is licensed under the **MIT License**.
 
 ## **🔗 Connect with Me**
 📧 Email: contact@johnferreralvarado.com
-💼 LinkedIn: [johnfalvarado](https://www.linkedin.com/in/johnfalvarado/)  
+
+💼 LinkedIn: [johnfalvarado](https://www.linkedin.com/in/johnfalvarado/) 
+ 
 🌎 Portfolio: [JohnFerrerAlvarado.com](https://johnferreralvarado.com/)  
 
 ---
