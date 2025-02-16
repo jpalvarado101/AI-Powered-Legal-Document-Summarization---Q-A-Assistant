@@ -1,24 +1,24 @@
 import openai
 import os
 
-# Get the API key from the environment variable
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if OPENAI_API_KEY:
-    openai.api_key = OPENAI_API_KEY
+# Set your API key from environment variables
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def summarize_text(text: str) -> str:
-    if not OPENAI_API_KEY:
-        return "OpenAI API key is missing. Set the OPENAI_API_KEY environment variable."
-
+    """
+    Summarizes a legal document using GPT-4o mini.
+    """
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4o",  # Using GPT-4o mini for cost-effective summarization
+            model="gpt-4o-mini",  # Using GPT-4o mini as per the latest API docs
             messages=[
-                {"role": "system", "content": "You are a legal assistant."},
-                {"role": "user", "content": f"Summarize this legal document:\n{text}"}
+                {"role": "system", "content": "You are a legal assistant specialized in summarizing legal documents."},
+                {"role": "user", "content": f"Please summarize this legal document:\n\n{text}"}
             ],
-            temperature=0.3
+            temperature=0.3,
+            max_tokens=300
         )
-        return response["choices"][0]["message"]["content"].strip()
+        summary = response["choices"][0]["message"]["content"].strip()
+        return summary
     except Exception as e:
         return f"Error: {e}"
