@@ -1,15 +1,15 @@
 import openai
 import os
 
-# Set your API key from environment variables
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Initialize OpenAI client
+client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def answer_question(question: str, context: str) -> str:
     """
     Answers a legal question based on provided context using GPT-4o mini.
     """
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-4o-mini",  # Using GPT-4o mini for cost-effective legal Q&A
             messages=[
                 {"role": "system", "content": "You are a legal expert who provides concise and precise answers."},
@@ -18,7 +18,7 @@ def answer_question(question: str, context: str) -> str:
             temperature=0.3,
             max_tokens=200
         )
-        answer = response["choices"][0]["message"]["content"].strip()
+        answer = response.choices[0].message.content.strip()
         return answer
     except Exception as e:
         return f"Error: {e}"
