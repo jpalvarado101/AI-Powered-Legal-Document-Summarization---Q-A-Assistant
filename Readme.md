@@ -1,6 +1,7 @@
 # **📜 AI-Powered Legal Document Summarization & Q&A Assistant**  
 
 ![Legal AI Assistant]() 
+🚨 See License Notice 🚨
 
 **🔍 Summary**  
 AI-powered tool that automates legal document summarization and provides legal Q&A assistance using **GPT-4o mini** and **Natural Language Processing (NLP)**. This project helps legal professionals save time by extracting key insights from contracts, case files, and other legal documents at a **low cost**.  
@@ -20,7 +21,7 @@ AI-powered tool that automates legal document summarization and provides legal Q
 
 ---
 
-## **🚀 Quick Start Guide**
+## **🚀 Quick Start Guide for my use only** 🚨 See License Notice 🚨
 ### **1️⃣ Clone the Repository**
 ```bash
 git clone https://github.com/yourusername/legal-ai-assistant.git
