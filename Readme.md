@@ -131,19 +131,11 @@ docker run -p 8000:8000 legal-ai-assistant
 
 ---
 
-## **🙌 Contributing**
-Want to improve this project? Contributions are welcome!  
-
-```bash
-git checkout -b feature-branch
-git commit -m "Add new feature"
-git push origin feature-branch
-```
-
----
-
-## **📜 License**
-This project is licensed under the **Apache 2.0 License**.  
+🚨 **License Notice:**  
+This project is under a **strict Read-Only License**.  
+✔️ You may **view** the code, but  
+❌ You **cannot copy, modify, use, or distribute** any part of it.  
+Violations may result in legal action. See the [LICENSE](LICENSE) file for details.
 
 ---
 
